@@ -28,11 +28,11 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center;
   background-attachment: fixed;
-  background-position: 80%;
-  z-index: 9999;
+  background-position: 80%; */
+  /* z-index: 9999; */
   font-weight: bold;
   font-size: 36px;
   margin: 0;
@@ -52,14 +52,12 @@ header h1 {
 }
 
 header nav {
-  margin: 7px 0;
-  float: right;
+  margin: -22px 0;
 }
 
 header nav ul {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   list-style: none;
   float: right;
@@ -177,6 +175,7 @@ footer {
   background: var(--primary-color);
   width: 100%;
   padding: 40px 35px;
+  color: var(--fun-text);
 }
 
 .website {

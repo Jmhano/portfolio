@@ -2,14 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jen Hano's Portfolio</title>
   </head>
+
   <body>
     <header>
       <h1>
-        <a href="/">Jen Hano's Portfolio</a>
+        <a href="/">Portfolio</a>
       </h1>
 
       <!--NAVIGATION START-->
@@ -22,7 +24,7 @@
             <a href="#work">Work</a>
           </li>
           <li>
-            <a href="contact-me">Contact Me</a>
+            <a href="#contact-me">Contact Me</a>
           </li>
           <li>
             <a href="#resume">Resume</a>
@@ -34,25 +36,112 @@
 
     <!--HERO START-->
     <section class="hero">
-      <h2>Bare with me, this is a work in progress :)</h2>
+      <h2>Hello I'm Jen Hano</h2>
+      <h3>Engineer ~ Designer ~ Freelancer</h3>
     </section>
     <!--HERO END-->
 
     <!--ABOUT ME SECTION START-->
     <section id="about-me">
       <h2>About Me</h2>
+      <p>
+        Sed id felis non libero convallis dictum id rhoncus nisi. Donec sed
+        tortor tincidunt, tincidunt nunc et, imperdiet nisi. Aenean malesuada
+        sed nisi a tempor. Sed molestie lectus quis ultricies volutpat. Ut
+        mattis, urna in vulputate congue, dolor eros fermentum metus, eu cursus
+        arcu felis interdum est. Suspendisse vitae varius velit. Morbi turpis
+        ipsum, molestie quis lectus quis, fermentum iaculis lorem. Pellentesque
+        at neque bibendum, placerat felis vel, elementum sem.
+        <br />
+        Vivamus tempor libero id sapien imperdiet cursus. Fusce consectetur
+        ullamcorper ex nec ultricies. Aliquam eget pellentesque enim. Ut blandit
+        ac augue eget commodo. Sed pulvinar ornare lectus, vel luctus felis
+        luctus sit amet. Nullam in ligula lacus. Sed nisl nibh, finibus vitae
+        lacus id, efficitur lacinia tortor. Sed blandit risus eget magna
+        convallis, sit amet gravida neque tempor. Morbi in enim bibendum,
+        molestie odio auctor, tempor lacus. Nunc aliquet tortor nisl, ac mollis
+        lectus finibus vel. Etiam nisl quam, blandit non lobortis venenatis,
+        gravida ac ante. Nullam fermentum porta efficitur. Phasellus luctus,
+        purus et hendrerit viverra, augue felis malesuada mi, ut varius metus
+        purus vel ligula.
+      </p>
     </section>
     <!--ABOUT ME SECTION END-->
 
     <!--WORK START-->
     <section id="work">
-      <h2>My Work</h2>
+      <div class="flex-row">
+        <h2 class="section-title primary border">Some Things I've Built</h2>
+      </div>
+
+      <div class="websites">
+        <article class="website">
+          <img src="./Assets/Images/diving.jpg" alt="" />
+          <div class="website-info">
+            <h3 class="website-title">Girls Who Dive</h3>
+            <h4 class="website-blurb">
+              Having dived in some of the best spots around the world, I put
+              together a collection of my favorites.
+            </h4>
+          </div>
+        </article>
+
+        <article class="website">
+          <img src="./Assets/Images/ocean-cleanup.jpg" alt="" />
+          <div class="website-info">
+            <h3 class="website-title">Plastic Free Oceans</h3>
+            <h4 class="wesbite-blurb">
+              A clean up our oceans project dedicated to education and activism.
+            </h4>
+          </div>
+        </article>
+
+        <article class="website">
+          <img src="./Assets/Images/doggos.jpg" alt="" />
+          <div class="website-info">
+            <h3 class="website-title">Senior Doggos</h3>
+            <h4 class="website-blurb">
+              All about how to take care of your aging dog.
+            </h4>
+          </div>
+        </article>
+
+        <article class="website">
+          <img src="./Assets/Images/travel.JPG" alt="" />
+          <div class="wesbsite-info">
+            <h3 class="website-title">Travel Not Diamonds</h3>
+            <h4 class="website-blurb">
+              A travel adventure website for girls who prefer a backpack over
+              diamonds
+            </h4>
+          </div>
+        </article>
+
+        <article class="website">
+        <a href="https://jmhano.github.io/module-1-work/">
+          <img src="./Assets/Images/run-buddy.jpg" alt="" />
+          <div class="website-info">
+            <h3 class="website-title">Run Buddy</h3>
+            <h4 class="wesbite-blurb">
+              A fitness company offering personal training services
+            </h4>
+          </div>
+        </article>
+      </div>
     </section>
     <!--WORK END-->
 
     <!--CONTACT ME START-->
     <section id="contact-me">
-      <h2>Contact Me</h2>
+      <div>
+        <h2>What's Next?</h2>
+        <h3>Get in touch</h3>
+        <address>
+          New York, NY <br />
+          P: 123.456.7890<br />
+          E: <a href="mailto:jmhano@gmail.com">jmhano@gmail.com</a>
+        </address>
+      </div>
     </section>
     <!--CONTACT ME END-->
 

@@ -107,8 +107,19 @@ body {
   text-align: center;
 }
 
-.about-me p {
-  text-align: center;
+#about-me h2 {
+  font-size: 28px;
+  color: var(--fun-text);
+}
+
+#about-me p {
+  font-size: 24;
+  color: var(--text-lightest);
+}
+
+#work h2 {
+  font-size: 32px;
+  color: var(--fun-text);
 }
 
 .websites {

@@ -214,3 +214,7 @@ aside {
   font-style: italic;
   color: #29627e;
 }
+
+#run {
+  margin-left: -5px;
+}

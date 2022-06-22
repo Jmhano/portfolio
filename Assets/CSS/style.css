@@ -178,12 +178,13 @@ footer {
 }
 
 #contact-me {
-  color: var(--text-lightest);
+  color: var(--fun-text);
   text-decoration: none;
 }
 
 #contact-me h2 {
-  color: var(--text-lightest);
+  color: var(--fun-text);
+  align-content: flex-start;
 }
 
 #contact-me h3 {

@@ -18,6 +18,7 @@
   margin: 10px;
   padding: 5px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 header {
@@ -25,14 +26,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
-  /* background-size: cover; */
-  /* background-position: center;
-  background-attachment: fixed;
-  background-position: 80%; */
-  /* z-index: 9999; */
   font-weight: bold;
   font-size: 36px;
   margin: 0;
@@ -56,18 +50,17 @@ header nav {
 }
 
 header nav ul {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
-  float: right;
 }
 
 header nav ul li a {
-  padding: 10px 15px;
+  padding: 0px 30px;
   font-weight: lighter;
   font-size: 1.5vw;
-  text-shadow: var(--green-tint);
 }
 
 header nav ul li a:hover {
@@ -95,14 +88,12 @@ body {
 .hero h2 {
   color: var(--white);
   font-size: 28px;
+  text-align: left;
 }
 
 .hero h3 {
   color: var(--white);
-}
-
-#about-me {
-  text-align: center;
+  text-align: left;
 }
 
 #about-me h2 {
@@ -122,12 +113,15 @@ body {
 
 .websites {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   color: var(--text-lightest);
+  text-align: center;
 }
 
 .website img {
   width: 100%;
+  margin: 0 auto 30px auto;
   display: inline-block;
   border: 3px solid var(--green-tint);
 }
@@ -140,11 +134,9 @@ body {
 .website h3 {
   font-size: 12px;
   color: var(--fun-text);
-  border-bottom: 3px solid;
+  border: 3px solid;
   padding-bottom: 20px;
   text-align: center;
-  margin: 0 auto 35px auto;
-  width: 100%;
 }
 
 .website h4 {
@@ -160,10 +152,6 @@ body {
 .website-info {
   flex-wrap: wrap;
   align-items: center;
-}
-
-.flex-row {
-  display: flex;
 }
 
 .contact-me {
@@ -186,15 +174,42 @@ footer {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #aaa;
   text-align: center;
 }
 
-.x img {
-  max-width: 100%;
+#contact-me {
+  color: var(--text-lightest);
+  text-decoration: none;
 }
 
-.img-container {
-  display: inline-block;
-  position: relative;
+#contact-me h2 {
+  color: var(--text-lightest);
+}
+
+#contact-me h3 {
+  color: var(--text-lightest);
+}
+
+#contact-me a {
+  color: var(--fun-text);
+}
+
+#resume h1 {
+  color: var(--fun-text);
+}
+footer {
+  background: var(--primary-color);
+  width: 100%;
+  padding: 40px 35px;
+  color: var(--fun-text);
+}
+
+aside {
+  width: 10%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: left;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
 }

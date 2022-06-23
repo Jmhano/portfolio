@@ -79,10 +79,10 @@ body {
 .hero {
   background-image: url(../Images/hero-img.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: inherit;
   background-attachment: inherit;
   background-position: 80%;
-  padding: 230px 140px;
+  padding: 389px 140px;
 }
 
 .hero h2 {
@@ -261,6 +261,12 @@ footer {
     font-size: 20px;
   }
 
+
+  .hero h2, h3 {
+
+  }
+
+
   footer h2,
   footer div {
     text-align: center;
@@ -274,6 +280,7 @@ footer {
 
   .website img {
     flex: 0 70%;
+    align-items: center;
   }
 
 
@@ -286,6 +293,12 @@ footer {
   .footer-text {
     flex: 100%;
   }
+  .website img {
+    flex: 0 70%;
+    align-items: center;
+  }
+
+
 }
 
 @media screen and (max-width: 575px) {
@@ -301,19 +314,18 @@ footer {
     width: 100%;
   }
 
-  .trainer {
-    flex: 0 100%;
+  .website img {
+    flex: 0 70%;
+    align-items: center;
   }
 
-  .contact-info {
+
+  .contact-me {
     text-align: center;
   }
 
-  .contact-info > * {
+  .contact-me > * {
     flex: 0 100%;
   }
 
-  .contact-form {
-    order: 3;
-  }
 }
